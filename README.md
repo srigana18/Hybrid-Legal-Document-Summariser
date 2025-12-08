@@ -37,22 +37,17 @@ Entire workflow developed and tested in **Google Colab**.
 You can load the project using **any one** of the following:
 
 ### Option 1 — Clone the GitHub Repository
-!git clone https://github.com/<your-username>/<your-repo>.git
-%cd <your-repo>
-### Option 2 — Upload ZIP into Colab
-python
-Copy code
-from zipfile import ZipFile
-ZipFile("your-repo.zip").extractall()
-%cd your-repo
-### Option 3 — Open Using the Provided Google Drive Link
+`!git clone https://github.com/srigana18/Hybrid-Legal-Document-Summariser.git`
+`%cd Hybrid-Legal-Document-Summariser`
+
+### Option 2 — Open Using the Provided Google Drive Link
 https://colab.research.google.com/drive/1JHgyCaA6LPykoeskpedx08boJ6DQTisV?usp=sharing
 
 Required API Keys
 Paste this into a Colab cell before running the notebook:
 
-"GEMINI_API_KEY" = "AIzaSyAN_QefiVDyOwuDO_YIFiVIDmk4y74NTR4""
-"HF_TOKEN" = "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"
+`"GEMINI_API_KEY" = "AIzaSyAN_QefiVDyOwuDO_YIFiVIDmk4y74NTR4""
+"HF_TOKEN" = "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"`
 
 ### Folder Structure
 inputs/          → sample input texts
@@ -63,5 +58,5 @@ requirements.txt → dependencies
 ### Running Locally (Optional)
 Colab is recommended.
 Local setup (optional):
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 Open legalsumm.ipynb in Jupyter or VS Code.
