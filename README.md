@@ -1,13 +1,10 @@
 # Hybrid Legal Document Summariser
----
 
 ## Project Members
 - **Srigana Pulikantham**  
 - **Eshika Sanjana Konyala**  
 - **Sowmya Sri Regu**  
 - **Rohith Nagapuri**
-
----
 
 ## Overview
 
@@ -30,7 +27,6 @@ Pegasus applied on extractive output
 
 Entire workflow developed and tested in **Google Colab**.
 
----
 
 ## How to Run This Project in Google Colab (Preferred)
 
