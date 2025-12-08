@@ -43,7 +43,7 @@ You can load the project using **any one** of the following:
 ### Option 2 — Open Using the Provided Google Drive Link
 https://colab.research.google.com/drive/1JHgyCaA6LPykoeskpedx08boJ6DQTisV?usp=sharing
 
-Required API Keys
+### Required API Keys
 Paste this into a Colab cell before running the notebook:
 
 `"GEMINI_API_KEY" = "AIzaSyAN_QefiVDyOwuDO_YIFiVIDmk4y74NTR4""
