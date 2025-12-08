@@ -42,8 +42,8 @@ https://colab.research.google.com/drive/1JHgyCaA6LPykoeskpedx08boJ6DQTisV?usp=sh
 ### Required API Keys
 Paste this into a Colab cell before running the notebook:
 
-`"GEMINI_API_KEY" = "AIzaSyAN_QefiVDyOwuDO_YIFiVIDmk4y74NTR4""
-"HF_TOKEN" = "Submitting through hf.txt"`
+`"GEMINI_API_KEY" = "Submitted through token.pdf"
+"HF_TOKEN" = "Submitted through token.pdf"`
 
 
 ### Folder Structure
