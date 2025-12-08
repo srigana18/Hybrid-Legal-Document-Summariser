@@ -36,29 +36,31 @@ Entire workflow developed and tested in **Google Colab**.
 
 You can load the project using **any one** of the following:
 
-### ✅ Option 1 — Clone the GitHub Repository
+### Option 1 — Clone the GitHub Repository
 !git clone https://github.com/<your-username>/<your-repo>.git
 %cd <your-repo>
-✅ Option 2 — Upload ZIP into Colab
+### Option 2 — Upload ZIP into Colab
 python
 Copy code
 from zipfile import ZipFile
 ZipFile("your-repo.zip").extractall()
 %cd your-repo
-✅ Option 3 — Open Using the Provided Google Drive Link
-🔗 https://colab.research.google.com/drive/1JHgyCaA6LPykoeskpedx08boJ6DQTisV?usp=sharing
+### Option 3 — Open Using the Provided Google Drive Link
+https://colab.research.google.com/drive/1JHgyCaA6LPykoeskpedx08boJ6DQTisV?usp=sharing
 
-🔑 Required API Keys
+Required API Keys
 Paste this into a Colab cell before running the notebook:
 
 "GEMINI_API_KEY" = "AIzaSyAN_QefiVDyOwuDO_YIFiVIDmk4y74NTR4""
-os.environ["HF_TOKEN"] = "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"
-📂 Folder Structure
+"HF_TOKEN" = "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"
+
+### Folder Structure
 inputs/          → sample input texts
 outputs/         → generated summaries + evaluations
 legalsumm.ipynb  → main summarizer notebook
 requirements.txt → dependencies
-💻 Running Locally (Optional)
+
+### Running Locally (Optional)
 Colab is recommended.
 Local setup (optional):
 pip install -r requirements.txt
