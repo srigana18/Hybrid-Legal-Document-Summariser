@@ -1,0 +1,10 @@
+torch
+pandas
+nltk
+rouge
+datasets
+sentence-transformers
+scipy
+transformers
+google-genai
+sentencepiece
