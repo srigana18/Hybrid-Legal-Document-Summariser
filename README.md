@@ -47,7 +47,7 @@ https://colab.research.google.com/drive/1JHgyCaA6LPykoeskpedx08boJ6DQTisV?usp=sh
 Paste this into a Colab cell before running the notebook:
 
 `"GEMINI_API_KEY" = "AIzaSyAN_QefiVDyOwuDO_YIFiVIDmk4y74NTR4""
-"HF_TOKEN" = "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"`
+"HF_TOKEN" = "Submitting through hf.txt"`
 
 
 ### Folder Structure
