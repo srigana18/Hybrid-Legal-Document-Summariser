@@ -1,16 +1,65 @@
-# Hybrid-Legal-Document-Summariser
-Project Members
-Srigana Pulikantham
-Eshika Sanjana Konyala
-Sowmya Sri Regu
-Rohith Nagapuri
-**1. Overview**
-This project implements a hybrid summarization pipeline for long legal documents using:
-1. Extractive summarization — KMeans clustering over Sentence-BERT embeddings
-2. Abstractive summarization — nsi319/legal-pegasus
-3. Hybrid summarization — Pegasus run on the extractive output
-4. Automated evaluation — Gemini-2.5-Flash scoring summaries on:
-    factual accuracy
-    coverage of important points
-    clarity/readability
-The entire workflow was developed and tested in Google Colab and packaged so anyone can reproduce the pipeline by downloading or cloning the repository.
+# Hybrid Legal Document Summariser
+---
+
+## Project Members
+- **Srigana Pulikantham**  
+- **Eshika Sanjana Konyala**  
+- **Sowmya Sri Regu**  
+- **Rohith Nagapuri**
+
+---
+
+## Overview
+
+This project implements a **hybrid legal document summarization pipeline** using:
+
+### Extractive Summarization  
+KMeans clustering on Sentence-BERT embeddings  
+
+### Abstractive Summarization  
+`nsi319/legal-pegasus`  
+
+### Hybrid Summarization  
+Pegasus applied on extractive output  
+
+### Automated Evaluation  
+**Gemini-2.5-Flash** scoring summaries on:
+- factual accuracy  
+- coverage  
+- clarity/readability  
+
+Entire workflow developed and tested in **Google Colab**.
+
+---
+
+## How to Run This Project in Google Colab (Preferred)
+
+You can load the project using **any one** of the following:
+
+### ✅ Option 1 — Clone the GitHub Repository
+!git clone https://github.com/<your-username>/<your-repo>.git
+%cd <your-repo>
+✅ Option 2 — Upload ZIP into Colab
+python
+Copy code
+from zipfile import ZipFile
+ZipFile("your-repo.zip").extractall()
+%cd your-repo
+✅ Option 3 — Open Using the Provided Google Drive Link
+🔗 https://colab.research.google.com/drive/1JHgyCaA6LPykoeskpedx08boJ6DQTisV?usp=sharing
+
+🔑 Required API Keys
+Paste this into a Colab cell before running the notebook:
+
+"GEMINI_API_KEY" = "AIzaSyAN_QefiVDyOwuDO_YIFiVIDmk4y74NTR4""
+os.environ["HF_TOKEN"] = "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"
+📂 Folder Structure
+inputs/          → sample input texts
+outputs/         → generated summaries + evaluations
+legalsumm.ipynb  → main summarizer notebook
+requirements.txt → dependencies
+💻 Running Locally (Optional)
+Colab is recommended.
+Local setup (optional):
+pip install -r requirements.txt
+Open legalsumm.ipynb in Jupyter or VS Code.
