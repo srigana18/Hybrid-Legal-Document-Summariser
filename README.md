@@ -1,11 +1,5 @@
 # Hybrid Legal Document Summariser
 
-## Project Members
-- **Srigana Pulikantham**  
-- **Eshika Sanjana Konyala**  
-- **Sowmya Sri Regu**  
-- **Rohith Nagapuri**
-
 ## Overview
 
 This project implements a **hybrid legal document summarization pipeline** using:
